@@ -86,7 +86,9 @@ public class User {
               .append("-> ID = ").append(id).append("\n")
               .append("-> First name = ").append(firstName).append("\n")
               .append("-> Last name = ").append(lastName).append("\n")
-              .append("-> E-mail = ").append(email).append("\n");
+              .append("-> E-mail = ").append(email).append("\n")
+              .append("-> Car model = ").append(car.getModel()).append("\n")
+              .append("-> Car series = ").append(car.getSeries()).append("\n");
       return String.valueOf(userToString);
    }
 }
